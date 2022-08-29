@@ -7,12 +7,12 @@ button {
   border-radius: 4px;
 }
 .order__button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
+  color: $backgroundColor;
+  background-color: $accentColor;
+  font-weight: $boldWeight;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: $largeLetterSpacing;
   padding: 10px 32px;
   min-width: 216px;
 }

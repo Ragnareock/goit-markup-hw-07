@@ -1,10 +1,10 @@
 .section__title {
-  font-weight: 700;
+  font-weight: $boldWeight;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  letter-spacing: $mediumLetterSpacing;
+  color: $titleTextColor;
   margin-top: 0;
   margin-bottom: 50px;
 }

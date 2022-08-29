@@ -1,13 +1,13 @@
 .logo {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  color: $accentColor;
+  font-family: $logoFont;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 .accent {
-  color: var(--logo-color);
+  color: $logoHeaderColor;
 }
 .footer__section .accent {
-  color: var(--primary-white-color);
+  color: $backgroundColor;
 }

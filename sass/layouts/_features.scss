@@ -3,8 +3,8 @@
   flex-wrap: wrap;
   gap: 30px;
   .title {
-    color: var(--title-text-color);
-    font-weight: 700;
+    color: $titleTextColor;
+    font-weight: $boldWeight;
     font-size: 14px;
     line-height: 1.14;
     margin-top: 0;
@@ -17,7 +17,7 @@
 .feature__img {
   width: 270px;
   height: 120px;
-  background-color: var(--primary-bg-color);
+  background-color: $secondaryBackgroundColor;
   border-radius: 4px;
   display: flex;
   align-items: center;
