@@ -1,7 +1,7 @@
 .presentation {
   padding-top: 0;
 }
-.presentation-list {
+.presentation__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -10,7 +10,7 @@
     position: relative;
   }
 }
-.presentation-top-text {
+.services__title {
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;

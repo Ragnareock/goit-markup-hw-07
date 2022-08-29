@@ -1,4 +1,4 @@
-.feature-list {
+.feature__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -14,7 +14,7 @@
     width: 270px;
   }
 }
-.feature-img-list {
+.feature__img {
   width: 270px;
   height: 120px;
   background-color: var(--primary-bg-color);
