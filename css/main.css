@@ -327,13 +327,13 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.soc__list {
+.social {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.soc__link {
+.social__link {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
@@ -343,15 +343,15 @@ button {
   justify-content: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.soc__link:hover, .soc__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: #2196f3;
 }
 
-.soc__icon {
+.social__icon {
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.soc__link:hover .soc__icon, .soc__link:focus .soc__icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: #ffffff;
 }
 
@@ -361,7 +361,7 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.client__list {
+.client {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -483,45 +483,45 @@ button {
   transform: translateY(0);
 }
 
-.footer__section {
+.footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer__container {
+.page-footer {
   display: flex;
   align-items: baseline;
 }
 
-.site__footer {
+.footer-info__list {
   margin-top: 20px;
 }
-.site__footer .map__link {
+.footer-info__list .footer-info__link {
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
   display: block;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site__footer .map__link:hover, .site__footer .map__link:focus {
+.footer-info__list .footer-info__link:hover, .footer-info__list .footer-info__link:focus {
   color: #2196f3;
 }
-.site__footer .link {
+.footer-info__list .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
   display: block;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site__footer .link:hover, .site__footer .link:focus {
+.footer-info__list .link:hover, .footer-info__list .link:focus {
   color: #2196f3;
 }
-.site__footer .item:not(:last-child) {
+.footer-info__list .item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.invait__title {
+.page-invait__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -531,12 +531,12 @@ button {
   margin-bottom: 20px;
 }
 
-.invait__list {
+.invait-social {
   display: flex;
   gap: 10px;
 }
 
-.invait__icon {
+.invait-social__icon {
   fill: #ffffff;
 }
 
@@ -554,15 +554,15 @@ button {
   background-color: #2196f3;
 }
 
-.page__invait {
+.page-invait {
   margin-left: 70px;
 }
 
-.subscribe__form {
+.subscribe-form {
   margin-left: auto;
 }
 
-.subscribe__label {
+.subscribe-form__label {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -571,12 +571,12 @@ button {
   color: #ffffff;
 }
 
-.footer__subscribe {
+.footer-subscribe {
   margin-top: 12px;
   position: relative;
 }
 
-.subscribe__input {
+.footer-subscribe__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -588,29 +588,29 @@ button {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-.subscribe__input:focus {
+.footer-subscribe__input:focus {
   outline: none;
 }
-.subscribe__input::-moz-placeholder {
+.footer-subscribe__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input:-ms-input-placeholder {
+.footer-subscribe__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input::placeholder {
+.footer-subscribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__button {
+.footer-subscribe__button {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -625,7 +625,7 @@ button {
   padding: 10px 28px;
 }
 
-.subscribe__icon {
+.footer-subscribe__icon {
   fill: #ffffff;
   position: absolute;
   right: 28px;
@@ -666,11 +666,11 @@ button {
   pointer-events: none;
 }
 
-.close__icon {
+.modal__close__icon {
   fill: #000000;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close__icon:hover, .close__icon:focus {
+.modal__close__icon:hover, .modal__close__icon:focus {
   fill: #2196f3;
 }
 
