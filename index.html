@@ -18,7 +18,7 @@
   <body>
     <!-- Head -->
     <header>
-      <div class="container header__container">
+      <div class="container page-header">
         <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
         <nav class="navigation">
           <ul class="navigation__list list">
@@ -33,7 +33,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="contact__list list">
+        <ul class="contact list">
           <li class="contact__item item">
             <a href="mailto:info@devstudio.com" class="contact__link link"
               ><svg class="contact__icon" width="16" height="12">
@@ -54,25 +54,23 @@
     <!-- Hero -->
     <main>
       <section class="hero">
-        <div class="container">
+        <div class="container hero__container">
           <h1 class="hero__title">Ефективні рішення для<br />вашого бізнесу</h1>
-          <button type="button" class="order__button button" data-modal-open>
-            Замовити послугу
-          </button>
+          <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- Feature -->
       <section class="section">
         <div class="container">
-          <h2 class="section__title visually__hidden">Переваги</h2>
-          <ul class="feature__list list">
+          <h2 class="section-title visually_hidden">Переваги</h2>
+          <ul class="feature list">
             <li class="feature__item item">
               <div class="feature__img">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="feature__title title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li class="feature__item item">
@@ -81,7 +79,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="feature__title title">ПУНКТУАЛЬНІСТЬ</h3>
               <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li class="feature__item item">
@@ -90,7 +88,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title">ПЛАНУВАННЯ</h3>
+              <h3 class="feature__title title">ПЛАНУВАННЯ</h3>
               <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="feature__item item">
@@ -99,17 +97,17 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="feature__title title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
           </ul>
         </div>
       </section>
       <!-- Presentation -->
-      <section class="section presentation">
+      <section class="section page-presentation">
         <div class="container">
-          <h2 class="section__title">Чим ми займаємося</h2>
-          <ul class="presentation__list list">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="presentation list">
             <li class="presentation__item item">
               <img
                 src="./images/computer.jpg"
@@ -117,22 +115,22 @@
                 width="370"
                 height="294"
               />
-              <p class="services__title">Десктопні додатки</p>
+              <p class="presentation__title">Десктопні додатки</p>
             </li>
             <li class="presentation__item item">
               <img src="./images/phone.jpg" alt="Мобільний пристрій" width="370" height="294" />
-              <p class="services__title">Мобільні додатки</p>
+              <p class="presentation__title">Мобільні додатки</p>
             </li>
             <li class="presentation__item item">
               <img src="./images/tablet.jpg" alt="Планшет" width="370" height="294" />
-              <p class="services__title">Дизайнерські рішення</p>
+              <p class="presentation__title">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section team">
+      <section class="section page-team">
         <div class="container">
-          <h2 class="section__title">Наша команда</h2>
+          <h2 class="section-title">Наша команда</h2>
           <ul class="team__list list">
             <li class="item">
               <img src="./images/designer.jpg" alt="Співробітник" width="270" />
@@ -276,7 +274,7 @@
       <!-- Client -->
       <section class="section client">
         <div class="container">
-          <h2 class="section__title">Постійні клієнти</h2>
+          <h2 class="section-title">Постійні клієнти</h2>
           <ul class="client__list list">
             <li class="client__item">
               <a href="" class="client__link link"
@@ -437,7 +435,7 @@
           <div class="modal__fieled agree">
             <input
               type="checkbox"
-              class="modal__check visually__hidden"
+              class="modal__check visually_hidden"
               name="mailing-list"
               id="mailing-list"
             />

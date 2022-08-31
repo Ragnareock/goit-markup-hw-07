@@ -60,7 +60,7 @@ header {
   text-decoration: none;
 }
 
-.visually__hidden {
+.visually_hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -88,7 +88,7 @@ header {
   padding-right: 15px;
 }
 
-.section__title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -108,7 +108,7 @@ button {
   border-radius: 4px;
 }
 
-.order__button {
+.hero__button {
   color: #ffffff;
   background-color: #2196f3;
   font-weight: 700;
@@ -175,12 +175,12 @@ button {
   left: 0;
 }
 
-.contact__list {
+.contact {
   display: flex;
   margin-left: auto;
   gap: 50px;
 }
-.contact__list .link {
+.contact .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -191,11 +191,11 @@ button {
   color: #757575;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact__list .link:hover, .contact__list .link:focus {
+.contact .link:hover, .contact .link:focus {
   color: #2196f3;
 }
 
-.header__container {
+.page-header {
   display: flex;
   align-items: center;
 }
@@ -231,12 +231,12 @@ button {
   background-size: cover;
 }
 
-.feature__list {
+.feature {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.feature__list .title {
+.feature .title {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -244,7 +244,7 @@ button {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.feature__list .item {
+.feature .item {
   width: 270px;
 }
 
@@ -259,21 +259,21 @@ button {
   margin-bottom: 30px;
 }
 
-.presentation {
+.page-presentation {
   padding-top: 0;
 }
 
-.presentation__list {
+.presentation {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.presentation__list .item {
+.presentation .item {
   width: 370px;
   position: relative;
 }
 
-.services__title {
+.presentation__title {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
@@ -292,7 +292,7 @@ button {
   height: 70px;
 }
 
-.team {
+.page-team {
   background-color: #f5f4fa;
 }
 
