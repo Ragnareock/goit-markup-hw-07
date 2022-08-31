@@ -1,7 +1,7 @@
 .page-team {
   background-color: $secondaryBackgroundColor;
 }
-.team__title {
+.team-card__title {
   color: $titleTextColor;
   font-weight: $mediumWeight;
   font-size: 16px;
@@ -12,11 +12,11 @@
   display: flex;
   justify-content: center;
 }
-.team__list {
+.team {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  .profession {
+  .team-card__profession {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -57,7 +57,7 @@
     fill: $backgroundColor;
   }
 }
-.card {
+.team-card {
   padding: 30px 10px;
   background-color: $backgroundColor;
   border-radius: 0px 0px 4px 4px;
