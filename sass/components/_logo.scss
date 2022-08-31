@@ -5,9 +5,12 @@
   line-height: 1.19;
   text-decoration: none;
 }
-.accent {
+.page-header__logo {
   color: $logoHeaderColor;
 }
-.footer__section .accent {
+// .footer__section .accent {
+//   color: $backgroundColor;
+// }
+.footer-info__logo--inverse {
   color: $backgroundColor;
 }
