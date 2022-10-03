@@ -3,13 +3,13 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.page-footer {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.footer-info__list {
+.footer__list {
   margin-top: 20px;
-  .footer-info__link {
+  .footer__link {
     color: $backgroundColor;
     text-decoration: none;
     font-style: normal;
@@ -35,7 +35,7 @@
     margin-bottom: 9px;
   }
 }
-.page-invait__title {
+.invait__title {
   font-weight: $boldWeight;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +51,7 @@
 .invait-social__icon {
   fill: $backgroundColor;
 }
-.invait__link {
+.invait-social__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -65,13 +65,13 @@
     background-color: $accentColor;
   }
 }
-.page-invait {
+.invait {
   margin-left: 70px;
 }
-.subscribe-form {
+.subscribe {
   margin-left: auto;
 }
-.subscribe-form__label {
+.subscribe__label {
   font-weight: $boldWeight;
   font-size: 14px;
   line-height: 1.14;
