@@ -1,20 +1,11 @@
-.team-card__title {
-  color: $titleTextColor;
-  font-weight: $mediumWeight;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  background-color: $backgroundColor;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-}
-.team {
+.section_color {
   background-color: $secondaryBackgroundColor;
+}
+.team__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  .team-card__profession {
+  .card__text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -23,7 +14,7 @@
     justify-content: center;
     margin-bottom: 16px;
   }
-  .item {
+  .team__item {
     width: 100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     @include tablet {
@@ -35,10 +26,26 @@
     }
   }
 }
-.social {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+.card {
+  padding: 30px 10px;
+  background-color: $backgroundColor;
+  border-radius: 0px 0px 4px 4px;
+  &__title {
+    color: $titleTextColor;
+    font-weight: $mediumWeight;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    background-color: $backgroundColor;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 .social__link {
   width: 44px;
@@ -61,9 +68,4 @@
   .social__link:focus & {
     fill: $backgroundColor;
   }
-}
-.team-card {
-  padding: 30px 10px;
-  background-color: $backgroundColor;
-  border-radius: 0px 0px 4px 4px;
 }

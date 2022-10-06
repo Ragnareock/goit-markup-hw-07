@@ -11,15 +11,6 @@ header {
   border-bottom-style: solid;
   border-bottom-color: $borderHeaderColor;
 }
-/* border-bottom: 1px solid #ececec; */
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.link {
-  text-decoration: none;
-}
 .visually_hidden {
   position: absolute;
   white-space: nowrap;
@@ -32,3 +23,12 @@ header {
   clip-path: inset(50%);
   margin: -1px;
 }
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+/* border-bottom: 1px solid #ececec; */
